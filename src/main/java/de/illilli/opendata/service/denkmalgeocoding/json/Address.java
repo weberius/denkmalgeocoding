@@ -88,6 +88,8 @@ public class Address {
 	public String house;
 	@JsonProperty("library")
 	public String library;
+	@JsonProperty("restaurant")
+	public String restaurant;
 
 	@Override
 	public String toString() {
