@@ -1,0 +1,34 @@
+[
+	{
+		"place_id":"39457759",
+		"licence":"Data © OpenStreetMap contributors, ODbL 1.0. http:\/\/www.openstreetmap.org\/copyright",
+		"osm_type":"node",
+		"osm_id":"2929450941",
+		"boundingbox":[
+			"50.9625087",
+			"50.9626087",
+			"6.9986999",
+			"6.9987999"
+		],
+		"lat":"50.9625587",
+		"lon":"6.9987499",
+		"display_name":"11,13, Bachstraße, Stegerwaldsiedlung, Mülheim, Köln, Regierungsbezirk Köln, Nordrhein-Westfalen, 51063, Deutschland",
+		"class":"place",
+		"type":"house",
+		"importance":0.201,
+		"address":{
+			"house_number":"11,13",
+			"road":"Bachstraße",
+			"neighbourhood":"Stegerwaldsiedlung",
+			"suburb":"Mülheim",
+			"city_district":"Mülheim",
+			"city":"Köln",
+			"county":"Köln",
+			"state_district":"Regierungsbezirk Köln",
+			"state":"Nordrhein-Westfalen",
+			"postcode":"51063",
+			"country":"Deutschland",
+			"country_code":"de"
+		}
+	}
+]

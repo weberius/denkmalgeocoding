@@ -1,0 +1,315 @@
+[
+	{
+		"place_id":"1339021",
+		"licence":"Data © OpenStreetMap contributors, ODbL 1.0. http:\/\/www.openstreetmap.org\/copyright",
+		"osm_type":"node",
+		"osm_id":"311086694",
+		"boundingbox":[
+			"52.0214839",
+			"52.0215839",
+			"8.5358168",
+			"8.5359168"
+		],
+		"lat":"52.0215339",
+		"lon":"8.5358668",
+		"display_name":"Cafe Nio, 23, Niederwall, Mitte, Sieker, Bielefeld, Regierungsbezirk Detmold, Nordrhein-Westfalen, 33602, Deutschland",
+		"class":"amenity",
+		"type":"pub",
+		"importance":0.221,
+		"icon":"http:\/\/nominatim.openstreetmap.org\/images\/mapicons\/food_pub.p.20.png",
+		"address":{
+			"pub":"Cafe Nio",
+			"house_number":"23",
+			"road":"Niederwall",
+			"suburb":"Mitte",
+			"village":"Sieker",
+			"city":"Bielefeld",
+			"state_district":"Regierungsbezirk Detmold",
+			"state":"Nordrhein-Westfalen",
+			"postcode":"33602",
+			"country":"Deutschland",
+			"country_code":"de"
+		}
+	},
+	{
+		"place_id":"39054451",
+		"licence":"Data © OpenStreetMap contributors, ODbL 1.0. http:\/\/www.openstreetmap.org\/copyright",
+		"osm_type":"node",
+		"osm_id":"2902428101",
+		"boundingbox":[
+			"52.0218684",
+			"52.0219684",
+			"8.5343984",
+			"8.5344984"
+		],
+		"lat":"52.0219184",
+		"lon":"8.5344484",
+		"display_name":"Tourist-Information Bielefeld, 23, Niederwall, Mitte, Sieker, Bielefeld, Regierungsbezirk Detmold, Nordrhein-Westfalen, 33602, Deutschland",
+		"class":"tourism",
+		"type":"attraction",
+		"importance":0.221,
+		"icon":"http:\/\/nominatim.openstreetmap.org\/images\/mapicons\/poi_point_of_interest.p.20.png",
+		"address":{
+			"attraction":"Tourist-Information Bielefeld",
+			"house_number":"23",
+			"road":"Niederwall",
+			"suburb":"Mitte",
+			"village":"Sieker",
+			"city":"Bielefeld",
+			"state_district":"Regierungsbezirk Detmold",
+			"state":"Nordrhein-Westfalen",
+			"postcode":"33602",
+			"country":"Deutschland",
+			"country_code":"de"
+		}
+	},
+	{
+		"place_id":"202296",
+		"licence":"Data © OpenStreetMap contributors, ODbL 1.0. http:\/\/www.openstreetmap.org\/copyright",
+		"osm_type":"node",
+		"osm_id":"33654800",
+		"boundingbox":[
+			"52.021772",
+			"52.021872",
+			"8.5351123",
+			"8.5352123"
+		],
+		"lat":"52.021822",
+		"lon":"8.5351623",
+		"display_name":"Bürgeramt, 23, Niederwall, Mitte, Sieker, Bielefeld, Regierungsbezirk Detmold, Nordrhein-Westfalen, 33602, Deutschland",
+		"class":"amenity",
+		"type":"public_building",
+		"importance":0.221,
+		"address":{
+			"public_building":"Bürgeramt",
+			"house_number":"23",
+			"road":"Niederwall",
+			"suburb":"Mitte",
+			"village":"Sieker",
+			"city":"Bielefeld",
+			"state_district":"Regierungsbezirk Detmold",
+			"state":"Nordrhein-Westfalen",
+			"postcode":"33602",
+			"country":"Deutschland",
+			"country_code":"de"
+		}
+	},
+	{
+		"place_id":"14902785",
+		"licence":"Data © OpenStreetMap contributors, ODbL 1.0. http:\/\/www.openstreetmap.org\/copyright",
+		"osm_type":"node",
+		"osm_id":"1375674823",
+		"boundingbox":[
+			"52.0216997",
+			"52.0217997",
+			"8.5358871",
+			"8.5359871"
+		],
+		"lat":"52.0217497",
+		"lon":"8.5359371",
+		"display_name":"Neues Rathaus, 23, Niederwall, Mitte, Sieker, Bielefeld, Regierungsbezirk Detmold, Nordrhein-Westfalen, 33602, Deutschland",
+		"class":"amenity",
+		"type":"townhall",
+		"importance":0.221,
+		"address":{
+			"townhall":"Neues Rathaus",
+			"house_number":"23",
+			"road":"Niederwall",
+			"suburb":"Mitte",
+			"village":"Sieker",
+			"city":"Bielefeld",
+			"state_district":"Regierungsbezirk Detmold",
+			"state":"Nordrhein-Westfalen",
+			"postcode":"33602",
+			"country":"Deutschland",
+			"country_code":"de"
+		}
+	},
+	{
+		"place_id":"20402385",
+		"licence":"Data © OpenStreetMap contributors, ODbL 1.0. http:\/\/www.openstreetmap.org\/copyright",
+		"osm_type":"node",
+		"osm_id":"2074577505",
+		"boundingbox":[
+			"52.0221076",
+			"52.0222076",
+			"8.5342589",
+			"8.5343589"
+		],
+		"lat":"52.0221576",
+		"lon":"8.5343089",
+		"display_name":"Sparkasse, 23, Niederwall, Mitte, Sieker, Bielefeld, Regierungsbezirk Detmold, Nordrhein-Westfalen, 33602, Deutschland",
+		"class":"amenity",
+		"type":"bank",
+		"importance":0.221,
+		"icon":"http:\/\/nominatim.openstreetmap.org\/images\/mapicons\/money_bank2.p.20.png",
+		"address":{
+			"bank":"Sparkasse",
+			"house_number":"23",
+			"road":"Niederwall",
+			"suburb":"Mitte",
+			"village":"Sieker",
+			"city":"Bielefeld",
+			"state_district":"Regierungsbezirk Detmold",
+			"state":"Nordrhein-Westfalen",
+			"postcode":"33602",
+			"country":"Deutschland",
+			"country_code":"de"
+		}
+	},
+	{
+		"place_id":"4050621",
+		"licence":"Data © OpenStreetMap contributors, ODbL 1.0. http:\/\/www.openstreetmap.org\/copyright",
+		"osm_type":"node",
+		"osm_id":"460329640",
+		"boundingbox":[
+			"52.0220824",
+			"52.0221824",
+			"8.5342786",
+			"8.5343786"
+		],
+		"lat":"52.0221324",
+		"lon":"8.5343286",
+		"display_name":"Sparkasse, 23, Niederwall, Mitte, Sieker, Bielefeld, Regierungsbezirk Detmold, Nordrhein-Westfalen, 33602, Deutschland",
+		"class":"man_made",
+		"type":"surveillance",
+		"importance":0.221,
+		"address":{
+			"address29":"Sparkasse",
+			"house_number":"23",
+			"road":"Niederwall",
+			"suburb":"Mitte",
+			"village":"Sieker",
+			"city":"Bielefeld",
+			"state_district":"Regierungsbezirk Detmold",
+			"state":"Nordrhein-Westfalen",
+			"postcode":"33602",
+			"country":"Deutschland",
+			"country_code":"de"
+		}
+	},
+	{
+		"place_id":"2584644013",
+		"licence":"Data © OpenStreetMap contributors, ODbL 1.0. http:\/\/www.openstreetmap.org\/copyright",
+		"osm_type":"node",
+		"osm_id":"3502534050",
+		"boundingbox":[
+			"52.0214206",
+			"52.0215206",
+			"8.5349362",
+			"8.5350362"
+		],
+		"lat":"52.0214706",
+		"lon":"8.5349862",
+		"display_name":"Kiosk, 23, Niederwall, Mitte, Sieker, Bielefeld, Regierungsbezirk Detmold, Nordrhein-Westfalen, 33602, Deutschland",
+		"class":"shop",
+		"type":"kiosk",
+		"importance":0.221,
+		"address":{
+			"address29":"Kiosk",
+			"house_number":"23",
+			"road":"Niederwall",
+			"suburb":"Mitte",
+			"village":"Sieker",
+			"city":"Bielefeld",
+			"state_district":"Regierungsbezirk Detmold",
+			"state":"Nordrhein-Westfalen",
+			"postcode":"33602",
+			"country":"Deutschland",
+			"country_code":"de"
+		}
+	},
+	{
+		"place_id":"20345294",
+		"licence":"Data © OpenStreetMap contributors, ODbL 1.0. http:\/\/www.openstreetmap.org\/copyright",
+		"osm_type":"node",
+		"osm_id":"2074577506",
+		"boundingbox":[
+			"52.0221606",
+			"52.0222606",
+			"8.5341544",
+			"8.5342544"
+		],
+		"lat":"52.0222106",
+		"lon":"8.5342044",
+		"display_name":"Sparkasse Bielefeld, 23, Niederwall, Mitte, Sieker, Bielefeld, Regierungsbezirk Detmold, Nordrhein-Westfalen, 33602, Deutschland",
+		"class":"amenity",
+		"type":"atm",
+		"importance":0.221,
+		"icon":"http:\/\/nominatim.openstreetmap.org\/images\/mapicons\/money_atm2.p.20.png",
+		"address":{
+			"atm":"Sparkasse Bielefeld",
+			"house_number":"23",
+			"road":"Niederwall",
+			"suburb":"Mitte",
+			"village":"Sieker",
+			"city":"Bielefeld",
+			"state_district":"Regierungsbezirk Detmold",
+			"state":"Nordrhein-Westfalen",
+			"postcode":"33602",
+			"country":"Deutschland",
+			"country_code":"de"
+		}
+	},
+	{
+		"place_id":"3838296",
+		"licence":"Data © OpenStreetMap contributors, ODbL 1.0. http:\/\/www.openstreetmap.org\/copyright",
+		"osm_type":"node",
+		"osm_id":"416911524",
+		"boundingbox":[
+			"52.0215309",
+			"52.0216309",
+			"8.5358131",
+			"8.5359131"
+		],
+		"lat":"52.0215809",
+		"lon":"8.5358631",
+		"display_name":"Cafe Nio, 23, Niederwall, Mitte, Sieker, Bielefeld, Regierungsbezirk Detmold, Nordrhein-Westfalen, 33602, Deutschland",
+		"class":"amenity",
+		"type":"toilets",
+		"importance":0.221,
+		"address":{
+			"toilets":"Cafe Nio",
+			"house_number":"23",
+			"road":"Niederwall",
+			"suburb":"Mitte",
+			"village":"Sieker",
+			"city":"Bielefeld",
+			"state_district":"Regierungsbezirk Detmold",
+			"state":"Nordrhein-Westfalen",
+			"postcode":"33602",
+			"country":"Deutschland",
+			"country_code":"de"
+		}
+	},
+	{
+		"place_id":"47202679",
+		"licence":"Data © OpenStreetMap contributors, ODbL 1.0. http:\/\/www.openstreetmap.org\/copyright",
+		"osm_type":"way",
+		"osm_id":"5034571",
+		"boundingbox":[
+			"52.0213049",
+			"52.022283",
+			"8.5341598",
+			"8.5367589"
+		],
+		"lat":"52.02178675",
+		"lon":"8.53562200674069",
+		"display_name":"23, Niederwall, Mitte, Sieker, Bielefeld, Regierungsbezirk Detmold, Nordrhein-Westfalen, 33602, Deutschland",
+		"class":"building",
+		"type":"yes",
+		"importance":0.221,
+		"address":{
+			"house_number":"23",
+			"road":"Niederwall",
+			"suburb":"Mitte",
+			"village":"Sieker",
+			"city":"Bielefeld",
+			"state_district":"Regierungsbezirk Detmold",
+			"state":"Nordrhein-Westfalen",
+			"postcode":"33602",
+			"country":"Deutschland",
+			"country_code":"de"
+		}
+	}
+]
