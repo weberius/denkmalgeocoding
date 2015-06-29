@@ -90,6 +90,8 @@ public class Address {
 	public String library;
 	@JsonProperty("restaurant")
 	public String restaurant;
+	@JsonProperty("beauty")
+	public String beauty;
 
 	@Override
 	public String toString() {
