@@ -16,7 +16,10 @@ Neben Nominatim betreibt [MapQuest](http://developer.mapquest.com/de/web/product
 
 Das Aufsetzen eines eigenen Nominatim-Servers ist mit der Anleitung gut durchführbar. Empfohlene Voraussetzungen ist die Verwendung im Rahmen einer VirtualBox (1 Prozessor, 2 GB RAM, 12 GB HDD). 
 
-##Space-characters
+##accept-language
 
-[TBD] Die Ansprache des eigenen Nominatim wird durch die Vewendung des space-characters eingeschränkt. 
+Es gibt prinzipiell zwei Möglichkeiten den Nominatim-Server anzufragen:
+- über den Parameter q
+- über die Parameter plz, city etc.
 
+Der Nominatim-Server erwartet eine gesetzte Sprache. Dies wird normalerweise durch den Browser vorgenommen. 

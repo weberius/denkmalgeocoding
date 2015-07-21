@@ -37,9 +37,13 @@ public class AskForGeoCodingNominatim {
 
 		InputStream inputStream = url.openStream();
 		ObjectMapper mapper = new ObjectMapper();
-		nominatimResult = mapper
-				.readValue(inputStream, NominatimResult[].class);
-		logger.debug(nominatimResult.toString());
+		try {
+			nominatimResult = mapper.readValue(inputStream,
+					NominatimResult[].class);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		System.out.println(nominatimResult.toString());
 		inputStream.close();
 	}
 

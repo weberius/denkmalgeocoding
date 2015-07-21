@@ -10,6 +10,7 @@ public abstract class UrlBuilder {
 	String query = "&q=";
 	String charSet = "UTF-8";
 	String spaceCharakter = "+";
+	String acceptLanguage = "&accept-language=de-DE";
 
 	StringBuilder url;
 
