@@ -18,8 +18,8 @@ public class UrlBuilderUrl extends UrlBuilder {
 		url.append(format);
 		url.append(adressdetails);
 		url.append(query);
-		url.append(country);
-		url.append(spaceCharakter);
+		// url.append(country);
+		// url.append(spaceCharakter);
 		url.append(postcode);
 		url.append(spaceCharakter);
 		url.append(URLEncoder.encode(city, charSet));
