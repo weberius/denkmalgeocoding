@@ -77,7 +77,7 @@ public class Service {
 	 */
 	@GET
 	@Produces({ MediaType.APPLICATION_JSON })
-	@Path("/{country}/{postcode}/{city}/{street}/{housenumber}")
+	@Path("/{postcode}/{city}/{street}/{housenumber}")
 	public String getlatlon(@PathParam("postcode") String postcode,
 			@PathParam("city") String city, @PathParam("street") String street,
 			@PathParam("housenumber") String housenumber)
