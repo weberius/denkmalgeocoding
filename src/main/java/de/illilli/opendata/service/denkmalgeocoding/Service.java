@@ -78,15 +78,13 @@ public class Service {
 	@GET
 	@Produces({ MediaType.APPLICATION_JSON })
 	@Path("/{country}/{postcode}/{city}/{street}/{housenumber}")
-	public String getlatlon(@PathParam("country") String country,
-			@PathParam("postcode") String postcode,
+	public String getlatlon(@PathParam("postcode") String postcode,
 			@PathParam("city") String city, @PathParam("street") String street,
 			@PathParam("housenumber") String housenumber)
 			throws JsonParseException, JsonMappingException, IOException,
 			URISyntaxException {
 		response.setCharacterEncoding("UTF-8");
-		Facade facade = new GeoCodingFacade(country, postcode, city, street,
-				housenumber);
+		Facade facade = new GeoCodingFacade(postcode, city, street, housenumber);
 		json = new StringBuilder(facade.getJson());
 		logger.debug(json.toString());
 		return json.toString();

@@ -18,14 +18,13 @@ public class UrlBuilderTest {
 	public void testGetUrl() throws UnsupportedEncodingException,
 			MalformedURLException {
 
-		String country = "de";
 		String postcode = "50668";
 		String city = "Köln";
 		String street = "Unter Krahnenbäumen";
 		String housenumber = "61-73";
 
-		UrlBuilderUrl urlBuilder = new UrlBuilderUrl(country, postcode, city,
-				street, housenumber);
+		UrlBuilderUrl urlBuilder = new UrlBuilderUrl(postcode, city, street,
+				housenumber);
 		URL url = urlBuilder.getUrl();
 
 		// String expected =

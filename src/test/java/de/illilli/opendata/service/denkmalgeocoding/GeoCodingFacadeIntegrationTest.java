@@ -40,14 +40,12 @@ public class GeoCodingFacadeIntegrationTest {
 	public void testGetUnterKrahnenBaeumen() throws JsonParseException,
 			JsonMappingException, IOException {
 
-		String country = "de";
 		String postcode = "50668";
 		String city = "Köln";
 		String street = "Unter Krahnenbäumen";
 		String housenumber = "61-73";
 
-		Facade facade = new GeoCodingFacade(country, postcode, city, street,
-				housenumber);
+		Facade facade = new GeoCodingFacade(postcode, city, street, housenumber);
 		InputStream inputStream = this.getClass().getResourceAsStream(
 				"/testGetUnterKrahnenBaumenExpected.json");
 		String expected = IOUtils.toString(inputStream, encoding);
@@ -60,14 +58,12 @@ public class GeoCodingFacadeIntegrationTest {
 	public void testGetBachstrasse() throws JsonParseException,
 			JsonMappingException, IOException {
 
-		String country = "de";
 		String postcode = "51063";
 		String city = "Köln";
 		String street = "Bachstrasse";
 		String housenumber = "11-13";
 
-		Facade facade = new GeoCodingFacade(country, postcode, city, street,
-				housenumber);
+		Facade facade = new GeoCodingFacade(postcode, city, street, housenumber);
 		InputStream inputStream = this.getClass().getResourceAsStream(
 				"/testGetBachstrasse11.json");
 		String expected = IOUtils.toString(inputStream, encoding);
@@ -80,14 +76,12 @@ public class GeoCodingFacadeIntegrationTest {
 	public void testGetNiederwallBielefeld() throws JsonParseException,
 			JsonMappingException, IOException {
 
-		String country = "de";
 		String postcode = "33602";
 		String city = "Bielefeld";
 		String street = "Niederwall";
 		String housenumber = "23";
 
-		Facade facade = new GeoCodingFacade(country, postcode, city, street,
-				housenumber);
+		Facade facade = new GeoCodingFacade(postcode, city, street, housenumber);
 		InputStream inputStream = this.getClass().getResourceAsStream(
 				"/testGetBielefeldNiederwall.json");
 		String expected = IOUtils.toString(inputStream, encoding);

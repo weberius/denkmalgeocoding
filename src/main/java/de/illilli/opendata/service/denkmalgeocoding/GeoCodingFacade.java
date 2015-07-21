@@ -43,10 +43,10 @@ public class GeoCodingFacade implements Facade {
 		result = results[0];
 	}
 
-	public GeoCodingFacade(String country, String postcode, String city,
-			String street, String housenumber) throws JsonParseException,
+	public GeoCodingFacade(String postcode, String city, String street,
+			String housenumber) throws JsonParseException,
 			JsonMappingException, IOException {
-		AskForGeoCodingNominatim askFor = new AskForGeoCodingNominatim(country,
+		AskForGeoCodingNominatim askFor = new AskForGeoCodingNominatim(
 				postcode, city, street, housenumber);
 		NominatimResult[] results = askFor.getNominatimResult();
 		if (results.length > 0) {
@@ -55,6 +55,7 @@ public class GeoCodingFacade implements Facade {
 		}
 	}
 
+	@Override
 	public String getJson() {
 		json = new StringBuilder(CULRY_BRACE_OPEN);
 		json.append(QUOTES);

@@ -29,11 +29,11 @@ public class AskForGeoCodingNominatim {
 			.getLogger(AskForGeoCodingNominatim.class);
 	private NominatimResult[] nominatimResult;
 
-	public AskForGeoCodingNominatim(String country, String postcode,
-			String city, String street, String housenumber)
-			throws MalformedURLException, IOException {
-		URL url = new UrlBuilderParameter(country, postcode, city, street,
-				housenumber).getUrl();
+	public AskForGeoCodingNominatim(String postcode, String city,
+			String street, String housenumber) throws MalformedURLException,
+			IOException {
+		URL url = new UrlBuilderUrl(postcode, city, street, housenumber)
+				.getUrl();
 
 		InputStream inputStream = url.openStream();
 		ObjectMapper mapper = new ObjectMapper();

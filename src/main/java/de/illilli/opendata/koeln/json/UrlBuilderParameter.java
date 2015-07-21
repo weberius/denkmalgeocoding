@@ -18,15 +18,12 @@ public class UrlBuilderParameter extends UrlBuilder {
 	// String nominatimUrl =
 	// "http://open.mapquestapi.com/nominatim/v1/search.php";
 
-	public UrlBuilderParameter(String country, String postcode, String city,
-			String street, String housenumber)
-			throws UnsupportedEncodingException {
+	public UrlBuilderParameter(String postcode, String city, String street,
+			String housenumber) throws UnsupportedEncodingException {
 		url = new StringBuilder(nominatimUrl);
 		url.append(format);
 		url.append(adressdetails);
 		url.append(query);
-		// url.append("&country=");
-		// url.append(country);
 		url.append("&postalcode=");
 		url.append(postcode.trim());
 		url.append("&city=");
