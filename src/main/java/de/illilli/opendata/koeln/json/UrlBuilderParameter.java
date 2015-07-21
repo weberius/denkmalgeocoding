@@ -23,6 +23,7 @@ public class UrlBuilderParameter extends UrlBuilder {
 		url = new StringBuilder(nominatimUrl);
 		url.append(format);
 		url.append(adressdetails);
+		url.append(acceptLanguage);
 		url.append(query);
 		url.append("&postalcode=");
 		url.append(postcode.trim());
