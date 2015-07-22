@@ -51,6 +51,7 @@ public class GeoCodingFacade implements Facade {
 		NominatimResult[] results = askFor.getNominatimResult();
 		if (results.length > 0) {
 			logger.debug(results[0]);
+			// TODO: check for result; not only the first must be the right one
 			result = results[0];
 		}
 	}

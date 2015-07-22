@@ -32,7 +32,11 @@ public class Service {
 
 	/**
 	 * <p>
-	 * Beispiel:
+	 * This Method is for testing purpose. It can be used to check wether the
+	 * service is working in general.
+	 * </p>
+	 * <p>
+	 * Example:
 	 * </p>
 	 * <p>
 	 * <a
@@ -60,7 +64,7 @@ public class Service {
 	/**
 	 * <p>
 	 * Beispiel: <a href=
-	 * "http://localhost:8080/denkmalgeocoding/service/de/50668/K%C3%B6ln/Unter%20Krahnenb%C3%A4umen/61-73"
+	 * "http://localhost:8080/denkmalgeocoding/service/50668/K%C3%B6ln/Unter%20Krahnenb%C3%A4umen/61-73"
 	 * >Köln, Unter Krahnebäumen 61-73</a>
 	 * </p>
 	 * 

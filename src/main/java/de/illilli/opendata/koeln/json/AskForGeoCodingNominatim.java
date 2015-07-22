@@ -43,7 +43,6 @@ public class AskForGeoCodingNominatim {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		System.out.println(nominatimResult.toString());
 		inputStream.close();
 	}
 
