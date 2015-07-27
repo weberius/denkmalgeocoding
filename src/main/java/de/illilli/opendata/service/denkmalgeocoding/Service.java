@@ -22,6 +22,8 @@ public class Service {
 
 	private final static Logger logger = Logger.getLogger(Service.class);
 
+	String nullValue = "{\"osmId\":0,\"lon\":null,\"lat\":null,\"display_name\":\"null\"}";
+
 	@Context
 	private HttpServletRequest request;
 
@@ -90,7 +92,9 @@ public class Service {
 		response.setCharacterEncoding("UTF-8");
 		Facade facade = new GeoCodingFacade(postcode, city, street, housenumber);
 		json = new StringBuilder(facade.getJson());
-		logger.debug(json.toString());
+		if (nullValue.equals(json.toString())) {
+			logger.error(json.toString());
+		}
 		return json.toString();
 	}
 
