@@ -23,8 +23,11 @@ public class UrlBuilderUrl extends UrlBuilder {
 		url.append(URLEncoder.encode(city, charSet));
 		url.append(spaceCharakter);
 		url.append(URLEncoder.encode(street, charSet));
-		url.append(spaceCharakter);
-		url.append(URLEncoder.encode(housenumber, charSet));
+		if (!"o.Nr.".equals(housenumber)) {
+			url.append(spaceCharakter);
+			url.append(URLEncoder.encode(housenumber, charSet));
+		}
+		System.out.println(url.toString());
 	}
 
 }
