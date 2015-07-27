@@ -92,6 +92,12 @@ public class Address {
 	public String restaurant;
 	@JsonProperty("beauty")
 	public String beauty;
+	@JsonProperty("kindergarten")
+	public String kindergarten;
+	@JsonProperty("castle")
+	public String castle;
+	@JsonProperty("hairdresser")
+	public String hairdresser;
 
 	@Override
 	public String toString() {
