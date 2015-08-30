@@ -93,7 +93,8 @@ public class Service {
 		Facade facade = new GeoCodingFacade(postcode, city, street, housenumber);
 		json = new StringBuilder(facade.getJson());
 		if (nullValue.equals(json.toString())) {
-			logger.error(json.toString());
+			logger.error(json.toString() + "; /" + postcode + "/" + city + "/"
+					+ street + "/" + housenumber + "");
 		}
 		return json.toString();
 	}
