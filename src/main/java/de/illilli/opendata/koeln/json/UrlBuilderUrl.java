@@ -3,7 +3,11 @@ package de.illilli.opendata.koeln.json;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 
+import org.apache.log4j.Logger;
+
 public class UrlBuilderUrl extends UrlBuilder {
+
+	private static final Logger logger = Logger.getLogger(UrlBuilderUrl.class);
 
 	// String nominatimUrl = "http://nominatim.openstreetmap.org/search";
 	String nominatimUrl = "http://ubuntu1404nominatim/nominatim/search.php";
@@ -27,7 +31,7 @@ public class UrlBuilderUrl extends UrlBuilder {
 			url.append(spaceCharakter);
 			url.append(URLEncoder.encode(housenumber, charSet));
 		}
-		System.out.println(url.toString());
+		logger.debug(url.toString());
 	}
 
 }
