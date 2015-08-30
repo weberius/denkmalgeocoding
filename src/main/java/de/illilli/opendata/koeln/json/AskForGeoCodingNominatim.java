@@ -10,6 +10,7 @@ import org.apache.log4j.Logger;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException;
 
 import de.illilli.opendata.service.denkmalgeocoding.json.NominatimResult;
 
@@ -40,8 +41,8 @@ public class AskForGeoCodingNominatim {
 		try {
 			nominatimResult = mapper.readValue(inputStream,
 					NominatimResult[].class);
-		} catch (Exception e) {
-			e.printStackTrace();
+		} catch (UnrecognizedPropertyException e) {
+			logger.error(e);
 		}
 		inputStream.close();
 	}
