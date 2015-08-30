@@ -98,6 +98,197 @@ public class Address {
 	public String castle;
 	@JsonProperty("hairdresser")
 	public String hairdresser;
+	@JsonProperty("residential")
+	public String residential;
+	@JsonProperty("path")
+	public String path;
+	@JsonProperty("museum")
+	public String museum;
+	@JsonProperty("sports")
+	public String sports;
+	@JsonProperty("place_of_worship")
+	public String placeOfWorship;
+	@JsonProperty("tram")
+	public String tram;
+	@JsonProperty("park")
+	public String park;
+	@JsonProperty("cafe")
+	public String cafe;
+	@JsonProperty("artwork")
+	public String artwork;
+	@JsonProperty("cycleway")
+	public String cycleway;
+	@JsonProperty("community_centre")
+	public String communityCentre;
+	@JsonProperty("beverages")
+	public String beverages;
+	@JsonProperty("memorial")
+	public String memorial;
+	@JsonProperty("nursing_home")
+	public String nursing_home;
+	@JsonProperty("jewelry")
+	public String jewelry;
+	@JsonProperty("fast_food")
+	public String fast_food;
+	@JsonProperty("convenience")
+	public String convenience;
+	@JsonProperty("bar")
+	public String bar;
+	@JsonProperty("furniture")
+	public String furniture;
+
+	@JsonProperty("stationery")
+	public String stationery;
+
+	@JsonProperty("bicycle")
+	public String bicycle;
+
+	@JsonProperty("optician")
+	public String optician;
+
+	@JsonProperty("hardware")
+	public String hardware;
+
+	@JsonProperty("hostel")
+	public String hostel;
+
+	@JsonProperty("post_office")
+	public String postOffice;
+
+	@JsonProperty("electronics")
+	public String electronics;
+
+	@JsonProperty("shop")
+	public String shop;
+
+	@JsonProperty("chemist")
+	public String chemist;
+
+	@JsonProperty("industrial")
+	public String industrial;
+
+	@JsonProperty("hospital")
+	public String hospital;
+
+	@JsonProperty("university")
+	public String university;
+
+	@JsonProperty("car_repair")
+	public String carRepair;
+
+	@JsonProperty("butcher")
+	public String butcher;
+
+	@JsonProperty("outdoor")
+	public String outdoor;
+
+	@JsonProperty("books")
+	public String books;
+
+	@JsonProperty("dry_cleaning")
+	public String dryCleaning;
+
+	@JsonProperty("hamlet")
+	public String hamlet;
+
+	@JsonProperty("supermarket")
+	public String supermarket;
+
+	@JsonProperty("sports_centre")
+	public String sportsCentre;
+
+	@JsonProperty("shoes")
+	public String shoes;
+
+	@JsonProperty("pharmacy")
+	public String pharmacy;
+
+	@JsonProperty("travel_agency")
+	public String travelAgency;
+
+	@JsonProperty("doctors")
+	public String doctors;
+
+	@JsonProperty("pitch")
+	public String pitch;
+
+	@JsonProperty("department_store")
+	public String departmentStore;
+
+	@JsonProperty("pet")
+	public String pet;
+
+	@JsonProperty("theatre")
+	public String theatre;
+
+	@JsonProperty("florist")
+	public String florist;
+
+	@JsonProperty("archaeological_site")
+	public String archaeologicalSite;
+
+	@JsonProperty("narrow_gauge")
+	public String narrowGauge;
+
+	@JsonProperty("cinema")
+	public String cinema;
+
+	@JsonProperty("fire_station")
+	public String fireStation;
+
+	@JsonProperty("guest_house")
+	public String guestHouse;
+
+	@JsonProperty("nightclub")
+	public String nightclub;
+
+	@JsonProperty("toys")
+	public String toys;
+
+	@JsonProperty("doityourself")
+	public String doityourself;
+
+	@JsonProperty("college")
+	public String college;
+
+	@JsonProperty("information")
+	public String information;
+
+	@JsonProperty("mobile_phone")
+	public String mobilePhone;
+
+	@JsonProperty("laundry")
+	public String laundry;
+
+	@JsonProperty("subway_entrance")
+	public String subwayEntrance;
+
+	@JsonProperty("recreation_ground")
+	public String recreationGround;
+
+	@JsonProperty("dentist")
+	public String dentist;
+
+	@JsonProperty("courthouse")
+	public String courthouse;
+
+	@JsonProperty("fuel")
+	public String fuel;
+
+	@JsonProperty("alcohol")
+	public String alcohol;
+
+	@JsonProperty("halt")
+	public String halt;
+
+	@JsonProperty("playground")
+	public String playground;
+
+	@JsonProperty("car")
+	public String car;
+
+	@JsonProperty("telephone")
+	public String telephone;
 
 	@Override
 	public String toString() {
