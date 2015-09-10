@@ -29,7 +29,7 @@ public class UrlBuilderParameterTest {
 
 		// String expected =
 		// "http://nominatim.openstreetmap.org/search?format=json&addressdetails=1&q=de%2050668%20K%C3%B6ln%20Unter+Krahnenb%C3%A4umen%2061-73";
-		String expected = "http://ubuntu1404nominatim/nominatim/search.php?format=json&addressdetails=1&q=&postalcode=50668&city=K%C3%B6ln&street=Unter+Krahnenb%C3%A4umen+61-73";
+		String expected = "http://ubuntu1404nominatim/nominatim/search.php?format=json&addressdetails=1&accept-language=de-DE&q=&postalcode=50668&city=K%C3%B6ln&street=Unter+Krahnenb%C3%A4umen+61-73";
 		String actual = url.toString();
 		System.out.println(actual);
 		Assert.assertEquals(expected, actual);
